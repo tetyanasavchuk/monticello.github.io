@@ -1,0 +1,21 @@
+$default-width: 100vw;
+$width-100: 100%;
+$default-height: 100vh;
+$height-100: 100%;
+$color-white: #fff;
+$color-black: #000;
+$justify-content-s-b: space-between;
+$justify-content-s-a: space-around;
+$position-r: relative;
+$position-a: absolute;
+$max-screen-size: 1200px;
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
